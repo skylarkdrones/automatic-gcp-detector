@@ -25,7 +25,7 @@ import cv2
 import piexif
 from PIL import Image
 
-from quark.helpers.spatial import is_point_inside_polygon
+from spatial import is_point_inside_polygon
 
 
 def rotate_jpeg(filename):
