@@ -1,0 +1,7 @@
+opencv-python==3.4.1.15
+matplotlib==2.2.2
+Pillow==5.2.0
+piexif==1.0.13
+Keras==2.2.0
+tensorflow==1.8.
+shapely==1.6.4
