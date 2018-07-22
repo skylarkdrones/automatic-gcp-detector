@@ -59,14 +59,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 from keras.models import load_model
 
-from quark.experimental.opencvutility import (
+from opencvutility import (
     rotate_jpeg,
     morphology,
     extract_contours,
     check_concavity,
     extract_roi,
 )
-from quark.helpers.fileconstants import FileConstants
 
 # Kernel for Morphological operations
 kernel = np.ones((3, 3), np.uint8)
